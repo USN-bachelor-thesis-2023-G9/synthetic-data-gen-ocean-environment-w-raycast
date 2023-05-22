@@ -1,4 +1,8 @@
 # Synthetic Data Generation in an Ocean Environment With Raycast
+
+## Dataset
+The datasets can be found on [kaggle](https://www.kaggle.com/datasets/joakimpettersvold/synthetic-data-from-ocean-environment-in-ue4/settings).
+
 ## Installation
 The Unreal Engine project is made in Unreal Engine version 4.27.2.
 To be able to open the project:
