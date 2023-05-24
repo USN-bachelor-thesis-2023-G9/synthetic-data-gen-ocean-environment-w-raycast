@@ -29,15 +29,19 @@
 # TODO: This section can be removed after UnrealBuildTool has been changed to generated Xcode projects that force the 'build' directory to be created under the Intermediate folder instead.
 Unreal/build/**
 
+# Do not upload plugins
+Unreal/Plugins
+
 # Derived data cache is never checked in
 Unreal/DerivedDataCache/**
 
 # Engine intermediates
 Unreal/Intermediate/**
-Unreal/Plugins/**/Intermediate/**
+#Unreal/Plugins/**/Intermediate/**
 
 # Exclude executable binaries too (game DLLs)
-#Unreal/*/Binaries/**
+Unreal/Binaries/**
+Unreal/*/Binaries/**
 #Unreal/*/Plugins/**/Binaries/**
 
 # Ignore any saved local files
@@ -58,9 +62,3 @@ Unreal/Saved/**
 #Ignore visual studio build files
 *.target
 *.lib
-
-Unreal/Binaries/Win64/UE4Editor-OceanProject-Win64-DebugGame.dll
-Unreal/Binaries/Win64/UE4Editor-Win64-DebugGame.modules
-Unreal/Binaries/Win64/UE4Editor-EnvironmentProject.dll
-Unreal/Binaries/Win64/UE4Editor-EnvironmentProject-Win64-DebugGame.dll
-Unreal/Binaries/Win64/UE4Editor.modules
